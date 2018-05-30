@@ -5,11 +5,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test": "ng test --code-coverage --single-run",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "validate": "npm-run-all --parallel test lint",
-    "precommit": "npm run validate",
+    "precommit": "npm run lint",
     "prepush": "npm run test"
   },
   "private": true,

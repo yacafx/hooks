@@ -3,7 +3,7 @@ declare var trackJs: any;
 
 @Injectable()
 export class TrackJsErrorHandler implements ErrorHandler {
-  handleError(error:any) {
+  handleError(error: any) {
     // Add the error message to the telemetry timeline.
     // It can occasionally have useful additional context.
     console.warn(error.message);
