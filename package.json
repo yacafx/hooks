@@ -1,0 +1,23 @@
+{
+  "name": "hocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yacafx/hocks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yacafx/hocks/issues"
+  },
+  "homepage": "https://github.com/yacafx/hocks#readme",
+  "devDependencies": {
+    "husky": "^0.14.3"
+  }
+}
