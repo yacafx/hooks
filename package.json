@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "validate": "npm-run-all --parallel test lint",
     "precommit": "npm run lint",
-    "prepush": "npm run test"
+    "prepush": "npm run validate"
   },
   "private": true,
   "dependencies": {
