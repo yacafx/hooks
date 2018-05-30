@@ -8,8 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "precommit": "npm test",
-    "prepush": "npm test"
+    "validate": "npm-run-all --parallel test lint",
+    "precommit": "npm run validate",
+    "prepush": "npm run test"
   },
   "private": true,
   "dependencies": {
